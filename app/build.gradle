@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 'Google Inc.:Google APIs:19'
-    buildToolsVersion "23.0.0"
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "movie.demo"
         minSdkVersion 14
-        targetSdkVersion 18
+        targetSdkVersion 28
     }
 
     buildTypes {
